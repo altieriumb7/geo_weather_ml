@@ -1,15 +1,17 @@
 streamlit==1.36.0
 plotly==5.22.0
 xarray==2024.6.0
-netCDF4==1.7.1.post2
+netCDF4==1.6.5          # <- wheel for Py311; avoids compiling
+cftime==1.6.4.post1     # <- netCDF4 companion wheel
 dask==2024.6.1
 geopandas==1.0.1
 regionmask==0.12.1
 shapely==2.0.4
+pyproj==3.6.1
 pandas==2.2.2
 numpy==1.26.4
 scipy==1.13.1
 scikit-image==0.24.0
-pyproj==3.6.1
 matplotlib==3.8.4
 cdsapi==0.7.3
+h5netcdf==1.3.0         # optional: lets xarray open .nc without netCDF4
