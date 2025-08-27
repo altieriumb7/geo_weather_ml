@@ -1,8 +1,7 @@
 streamlit==1.36.0
 plotly==5.22.0
 xarray==2024.6.0
-netCDF4==1.6.5
-cftime==1.7.1.post2
+netCDF4==1.7.1.post2
 dask==2024.6.1
 geopandas==1.0.1
 regionmask==0.12.1
