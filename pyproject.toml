@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=61", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "geo_weather_ml"
+version = "0.1.0"
+description = "Streamlit app for geospatial climate analysis"
+readme = "README.md"
+authors = [{ name = "Your Name", email = "you@example.com" }]
+requires-python = ">=3.12,<3.13"
+
+dependencies = [
+  "streamlit==1.36.0",
+  "plotly==5.22.0",
+  "xarray==2024.6.0",
+  "netCDF4==1.7.1.post2",
+  "dask==2024.6.1",
+  "geopandas==1.0.1",
+  "regionmask==0.12.1",
+  "shapely==2.0.4",
+  "pyproj==3.6.1",
+  "pandas==2.2.2",
+  "numpy==1.26.4",
+  "scipy==1.13.1",
+  "scikit-image==0.24.0",
+  "matplotlib==3.8.4",
+  "cdsapi==0.7.3"
+]
